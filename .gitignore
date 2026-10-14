@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# Data and outputs (regenerated on each run)
+data/
+models/
+*.parquet
+*.csv
+!sample_*.csv
+
+# Spark / logs
+spark-warehouse/
+derby.log
+metastore_db/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/

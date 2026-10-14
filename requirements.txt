@@ -1,0 +1,9 @@
+pyspark==3.5.1
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.2
+yfinance==0.2.43
+pyarrow==17.0.0
+matplotlib==3.9.2
+python-dotenv==1.0.1
+pytest==8.3.2
